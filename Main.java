@@ -1,15 +1,13 @@
 package com.robertocannella;
 
-import java.io.PrintStream;
-import java.sql.Array;
 import java.util.Arrays;
 
 public class Main {
 
     public static void main(String[] args) {
-        var bubbleSort = new BubbleSort();
-        int[] intArray = {5,7,2,4,4,6,7,44};
-        bubbleSort.sort(intArray);
+        Comparable[] intArray = {5,7,2,4,4,6,7,44};
+        //Comparable[] intArray = {'S','O','R','T','E','X','A','M','P','L','E'};
+        SelectionSort.sort(intArray);
         System.out.println(Arrays.toString(intArray));
     }
 }
