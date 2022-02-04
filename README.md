@@ -17,4 +17,8 @@ A version of Insertion Sort, Shell Sort allows for exchanges of array entries th
 
 ## Merge Sort
 
-Merge Sort runs on average (*n log (n)*) time complexity.  A divide and conquer algorithm which recursively divides an array into a single element, so it can begin the process of recursively comparing two elements, then 4, then 8, and so on.  Typically Merge Sort is taught using a recursive algorithm using while loops.  This implementation uses additional space (a temporary array). Other implementations can include an if statements in nested for loops.  Alternative approach is to implement a bottom up algorithm which requires no additional space; an inline Merge Sort  
+Merge Sort runs on average (*n log (n)*) time complexity.  A divide and conquer algorithm which recursively divides an array into a single element, so it can begin the process of recursively comparing two elements, then 4, then 8, and so on.  Typically, Merge Sort is taught using a recursive algorithm using while loops.  This implementation uses additional space (a temporary array). Other implementations can include an if statements in nested for loops.  Alternative approach is to implement a bottom up algorithm which requires no additional space; an inline Merge Sort
+
+## Quick Sort
+
+Quick Sort is an in place recursive sorting algorithm which uses no additional space.  Quick Sort is the most commonly implemented version of sorting in most programming languages.  Using a 'pivot', the array is partitioned into two.  Different variations of this algorithm use alternative pivot starting points(beginning, middle, end).  The pivot shifts to a position where all elements to the left are smaller and all elements to the right are larger.  Quick Sort time complexity, with a good pivot selection will run in ~ O(*n log n*) time with a space complexityO(log n)

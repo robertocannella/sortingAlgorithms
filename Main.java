@@ -17,7 +17,7 @@ public class Main {
         //Comparable[] intArray = {'M','E','R','G','E','S','O','R','T','E','X','A','M','P','L','E'};
         Comparable[] intArray = {9,3,8,6,2,1,5,7};
         //Comparable[] intArray = {4,2,1};
-        BUMergeSort.sort(intArray);
+        QuickSort.sort(intArray);
         System.out.println(Arrays.toString(intArray));
     }
 }
