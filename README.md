@@ -22,3 +22,6 @@ Merge Sort runs on average (*n log (n)*) time complexity.  A divide and conquer 
 ## Quick Sort
 
 Quick Sort is an in place recursive sorting algorithm which uses no additional space.  Quick Sort is the most commonly implemented version of sorting in most programming languages.  Using a 'pivot', the array is partitioned into two.  Different variations of this algorithm use alternative pivot starting points(beginning, middle, end).  The pivot shifts to a position where all elements to the left are smaller and all elements to the right are larger.  Quick Sort time complexity, with a good pivot selection will run in ~ O(*n log n*) time with a space complexityO(log n)
+
+
+-roberto cannella
